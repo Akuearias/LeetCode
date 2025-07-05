@@ -7,6 +7,8 @@ import collections
 # The function accepts STRING s as parameter.
 #
 
+
+# NOTE: This answer is not perfect.
 def isValid(s):
     # Write your code here
     s_counter = dict(collections.Counter(s))
